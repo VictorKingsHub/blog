@@ -32,7 +32,7 @@ const NavBar = () => {
               <Link
                 href={menuitem.href}
                 key={menuitem.id}
-                className={`mx-4 font-bold text-11 cursor-pointer hover:text-teal-500 transition-all ${
+                className={`mx-4 font-bold text-11 text-gray-500 cursor-pointer hover:text-teal-500 transition-all ${
                   isActive ? "text-teal-400" : ""
                 }`} // Apply active class
               >
@@ -43,7 +43,7 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="hidden lg:flex">
-        <Link href="/contact">
+        <Link href="/about">
           <button
             type="button"
             title="Book Us Today"

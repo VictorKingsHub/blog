@@ -1,8 +1,10 @@
+// BlogList.js
 "use client";
 import React, { useState } from "react";
 import { BlogData } from "@/Assets/Assets";
 import BlogItem from "./BlogItem";
 import Link from "next/link";
+
 const BlogList = () => {
   const [menu, setMenu] = useState("All");
 

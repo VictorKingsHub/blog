@@ -6,7 +6,7 @@ const FooterCopyright = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="text-center py-4">
+    <div className="text-center py-4 text-white">
       {" "}
       {/* Add styling as needed */}
       <p>&copy; {currentYear} T&T Blog. All rights reserved.</p>
