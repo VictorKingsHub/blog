@@ -17,9 +17,9 @@ const Footer = () => {
         throw new Error("Please enter your email.");
       }
 
-      const serviceId = SUB_NEXT_PUBLIC_EMAILJS_SERVICE_ID;
-      const templateId = SUB_NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-      const publicKey = SUB_NEXT_PUBLIC_EMAILJS_USER_ID;
+      const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+      const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+      const publicKey = process.env.NEXT_PUBLIC_EMAILJS_USER_ID;
 
       const templateParams = {
         to_email: "ezevictornkemjika@gmail.com", // Admin's email
@@ -36,9 +36,11 @@ const Footer = () => {
   };
 
   return (
-    <footer className="footer flex flex-col justify-center items-center bg-black text-white text-base-content px-10 py-5 ">
-      <div className="flex flex-row justify-between  w-full">
-        <aside>
+    <footer className="footer flex flex-col justify-center items-center bg-black text-white text-base-content px-5 py-5 sm:px-10">
+      <div className="flex flex-wrap justify-between w-full">
+        {" "}
+        {/* Added flex-wrap */}
+        <aside className="mb-5 sm:mb-0 w-full sm:w-auto">
           <svg
             width="50"
             height="50"
@@ -56,28 +58,24 @@ const Footer = () => {
             Providing reliable tech since 1992
           </p>
         </aside>
-        <nav>
+        <nav className="mb-5 sm:mb-0 w-full sm:w-auto">
           <h6 className="footer-title">Company</h6>
-
-          {NAV_LINKS.map((item) => {
-            return (
-              <div key={item.id}>
-                <Link href={item.href} className="link link-hover">
-                  {" "}
-                  {item.label}{" "}
-                </Link>
-              </div>
-            );
-          })}
+          {NAV_LINKS.map((item) => (
+            <div key={item.id}>
+              <Link href={item.href} className="link link-hover">
+                {item.label}
+              </Link>
+            </div>
+          ))}
         </nav>
-        <nav>
+        <nav className="mb-5 sm:mb-0 w-full sm:w-auto">
           <h6 className="footer-title">Legal</h6>
           <a className="link link-hover">Terms of use</a>
           <a className="link link-hover">Privacy policy</a>
           <a className="link link-hover">Cookie policy</a>
         </nav>
         <form
-          className="flex justify-between max-w-[500px] scale-75 sm:scale-100 bg-gray-500 p-1 border border-black rounded-sm"
+          className="flex justify-between w-full sm:max-w-[500px] bg-gray-500 p-1 border border-black rounded-sm"
           onSubmit={handleSubmit}
         >
           <input
@@ -85,7 +83,7 @@ const Footer = () => {
             name="email"
             id="email"
             placeholder="Enter Your Email"
-            className="outline-none self-center w-full text-black h-full px-8 py-2 rounded-tl-sm rounded-bl-sm"
+            className="outline-none self-center w-full text-black h-full px-2 sm:px-8 py-2 rounded-tl-sm rounded-bl-sm"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
@@ -98,7 +96,7 @@ const Footer = () => {
           </button>
         </form>
       </div>
-      <div>
+      <div className="mt-5">
         <Copyright />
       </div>
     </footer>
