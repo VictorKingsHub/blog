@@ -1,6 +1,5 @@
 "use client";
 import BlogList from "@/components/BlogList";
-import { ThemeToggle } from "@/components/theme_toggle";
 import Hero from "@/components/ui/Hero";
 
 export default function Home() {
