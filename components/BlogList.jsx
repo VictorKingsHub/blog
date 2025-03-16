@@ -10,7 +10,7 @@ const BlogList = () => {
 
   return (
     <div className="min-w-[95vw] border-t border-solid border-black flex flex-col justify-center items-center bg-gray-100 ">
-      <div className="flex justify-center gap-6 my-10">
+      <div className="flex justify-center gap-6 my-10 sm:gap-2">
         <button
           onClick={() => setMenu("All")}
           className={
