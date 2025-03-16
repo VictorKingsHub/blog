@@ -10,13 +10,12 @@ const BlogList = () => {
   return (
     <div className="min-w-[95vw] border-t border-solid border-black flex flex-col justify-center items-center bg-gray-100 ">
       <div className="flex justify-center gap-2 my-6 xs:gap-1 xs:my-4 flex-wrap">
-        {" "}
         <button
           onClick={() => setMenu("All")}
           className={
             menu === "All"
-              ? `bg-black text-white py-1 px-2 rounded-sm font-semibold text-[0.7rem] xs:px-1 xs:py-0.5 xs:m-0.5`
-              : "font-semibold text-[0.7rem] xs:px-1 xs:py-0.5 xs:m-0.5"
+              ? `bg-black text-white py-1 px-2 rounded-sm font-semibold text-[0.8rem] xs:px-1 xs:py-0.5 xs:m-0.5 sm:text-base sm:px-4 sm:m-0` // Restored size on tablet upwards
+              : "font-semibold text-[0.8rem] xs:px-1 xs:py-0.5 xs:m-0.5 sm:text-base sm:px-4 sm:m-0" // Restored size on tablet upwards
           }
         >
           All
@@ -25,8 +24,8 @@ const BlogList = () => {
           onClick={() => setMenu("Technology")}
           className={
             menu === "Technology"
-              ? `bg-black text-white py-1 px-2 rounded-sm font-semibold text-[0.7rem] xs:px-1 xs:py-0.5 xs:m-0.5`
-              : "font-semibold text-[0.7rem] xs:px-1 xs:py-0.5 xs:m-0.5"
+              ? `bg-black text-white py-1 px-2 rounded-sm font-semibold text-[0.8rem] xs:px-1 xs:py-0.5 xs:m-0.5 sm:text-base sm:px-4 sm:m-0` // Restored size on tablet upwards
+              : "font-semibold text-[0.8rem] xs:px-1 xs:py-0.5 xs:m-0.5 sm:text-base sm:px-4 sm:m-0" // Restored size on tablet upwards
           }
         >
           Technology
@@ -35,8 +34,8 @@ const BlogList = () => {
           onClick={() => setMenu("Education")}
           className={
             menu === "Education"
-              ? `bg-black text-white py-1 px-2 rounded-sm font-semibold text-[0.7rem] xs:px-1 xs:py-0.5 xs:m-0.5`
-              : "font-semibold text-[0.7rem] xs:px-1 xs:py-0.5 xs:m-0.5"
+              ? `bg-black text-white py-1 px-2 rounded-sm font-semibold text-[0.8rem] xs:px-1 xs:py-0.5 xs:m-0.5 sm:text-base sm:px-4 sm:m-0` // Restored size on tablet upwards
+              : "font-semibold text-[0.8rem] xs:px-1 xs:py-0.5 xs:m-0.5 sm:text-base sm:px-4 sm:m-0" // Restored size on tablet upwards
           }
         >
           Education
@@ -45,8 +44,8 @@ const BlogList = () => {
           onClick={() => setMenu("Entertainment")}
           className={
             menu === "Entertainment"
-              ? `bg-black text-white py-1 px-2 rounded-sm font-semibold text-[0.7rem] xs:px-1 xs:py-0.5 xs:m-0.5`
-              : "font-semibold text-[0.7rem] xs:px-1 xs:py-0.5 xs:m-0.5"
+              ? `bg-black text-white py-1 px-2 rounded-sm font-semibold text-[0.8rem] xs:px-1 xs:py-0.5 xs:m-0.5 sm:text-base sm:px-4 sm:m-0` // Restored size on tablet upwards
+              : "font-semibold text-[0.8rem] xs:px-1 xs:py-0.5 xs:m-0.5 sm:text-base sm:px-4 sm:m-0" // Restored size on tablet upwards
           }
         >
           Entertainment
