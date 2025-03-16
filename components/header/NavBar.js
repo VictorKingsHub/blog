@@ -54,7 +54,7 @@ const NavBar = () => {
       </div>
 
       <div className="md:hidden flex">
-        <div onClick={toggleMobileMenu}>
+        <div onClick={toggleMobileMenu} className="text-2xl">
           <CiMenuBurger />
         </div>
         {isMobileMenuOpen && (
