@@ -1,4 +1,3 @@
-// Hero.js
 "use client";
 import React, { useState, useEffect } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
@@ -42,7 +41,7 @@ const Hero = () => {
   return (
     <div className="text-center my-8 p-10 ms:p-5 ">
       <h1 className="text-3xl sm:text-5xl font-medium"> Latest Blogs </h1>
-      <p className="mt-10 max-w-[740px] m-auto text-xs sm:text-base">
+      <p className="mt-10 max-w-[740px] m-auto text-sm sm:text-lg">
         Shaping Tomorrow, Today. Where Technology, Education, and Entertainment
         Converge. Get a glimpse into the future with our in-depth analysis,
         innovative ideas, and captivating stories
@@ -58,7 +57,7 @@ const Hero = () => {
             placeholder="Search here..."
             value={searchTerm}
             onChange={handleSearchChange}
-            className="w-full p-3 border border-gray-400 rounded-l-md focus:outline-none"
+            className="w-full p-3 xs:p-1 border border-gray-400 rounded-l-md focus:outline-none"
           />
           <div className="absolute inset-y-0 right-3 flex items-center pointer-events-none">
             <AiOutlineSearch className="text-gray-400" />
@@ -66,7 +65,7 @@ const Hero = () => {
         </div>
         <button
           type="submit"
-          className="bg-gray-800 text-white p-3 rounded-r-md hover:bg-teal-700 focus:outline-none"
+          className="bg-gray-800 text-white p-3 xs:p-1 rounded-r-md hover:bg-teal-700 focus:outline-none"
         >
           Search
         </button>
