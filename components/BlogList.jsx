@@ -10,11 +10,13 @@ const BlogList = () => {
 
   return (
     <div className="min-w-[95vw] border-t border-solid border-black flex flex-col justify-center items-center bg-gray-100 ">
-      <div className="flex justify-center gap-6 my-10 sm:gap-2">
+      <div className="flex justify-center gap-6 my-10 xs:gap-2">
         <button
           onClick={() => setMenu("All")}
           className={
-            menu === "All" ? `bg-black text-white py-1 px-4 rounded-sm` : " "
+            menu === "All"
+              ? `bg-black text-white py-1 px-4 xs:px-2 rounded-sm`
+              : " "
           }
         >
           All
@@ -23,7 +25,7 @@ const BlogList = () => {
           onClick={() => setMenu("Technology")}
           className={
             menu === "Technology"
-              ? `bg-black text-white py-1 px-4 rounded-sm`
+              ? `bg-black text-white py-1 px-4 :px-2 rounded-sm`
               : " "
           }
         >
@@ -33,7 +35,7 @@ const BlogList = () => {
           onClick={() => setMenu("Education")}
           className={
             menu === "Education"
-              ? `bg-black text-white py-1 px-4 rounded-sm`
+              ? `bg-black text-white py-1 px-4 xs:px-2 rounded-sm`
               : " "
           }
         >
@@ -43,7 +45,7 @@ const BlogList = () => {
           onClick={() => setMenu("Entertainment")}
           className={
             menu === "Entertainment"
-              ? `bg-black text-white py-1 px-4 rounded-sm`
+              ? `bg-black text-white py-1 px-4  xs:px-2 rounded-sm`
               : " "
           }
         >
