@@ -7,7 +7,7 @@
 3. Form Submit notification on the admin email
 4. ...
 
-## Getting Started
+### Getting Started
 
 First, run the development server:
 
@@ -21,17 +21,20 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Dependencies that needs to be installed
+### Dependencies that needs to be installed
 ****
-**<b>Next.js</b>**  npx create-next-app@latest
+**Next.js**   = npx create-next-app@latest  
+&nbsp; &nbsp; &nbsp; &nbsp; Allow Typescript  
+&nbsp; &nbsp; &nbsp; &nbsp; Allow Tailwind-css
+**React-icons**  
+**Shadecn**  = npx shadcn@latest init
 
-To learn more about Next.js, take a look at the following resources:
+
+##Hosted on
+**Vercel = vercel.com**
+**url** &nbsp; &nbsp; = https://blogme-one.vercel.app/
+
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
