@@ -30,24 +30,24 @@ const BlogList = () => {
           Technology
         </button>
         <button
-          onClick={() => setMenu("Startup")}
+          onClick={() => setMenu("Education")}
           className={
-            menu === "Startup"
+            menu === "Education"
               ? `bg-black text-white py-1 px-4 rounded-sm`
               : " "
           }
         >
-          Startup
+          Education
         </button>
         <button
-          onClick={() => setMenu("Lifestyle")}
+          onClick={() => setMenu("Entertainment")}
           className={
-            menu === "Lifestyle"
+            menu === "Entertainment"
               ? `bg-black text-white py-1 px-4 rounded-sm`
               : " "
           }
         >
-          Lifestyle
+          Entertainment
         </button>
       </div>
       <div className="flex w-full p-2 flex-wrap justify-center items-center py-3 gap-x-7 gap-10 min-h-full xl:mx-24  items-center  ">

@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Best Hiking Trails in Colorado | T&T Blog",
+  title: "Best Blog Website | T&T Blog",
   description: "Developed by Victor Eze",
 };
 

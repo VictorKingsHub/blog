@@ -165,10 +165,10 @@ const ContactPage = () => {
           <h2 className="text-xl font-semibold mb-4">Contact Information</h2>
           <p className="mb-2">
             <strong>Email:</strong>{" "}
-            <a href="mailto:contact@yourblog.com">contact@yourblog.com</a>
+            <a href="#mailto:contact@yourblog.com">T&Tgmail.com</a>
           </p>
           <p className="mb-2">
-            <strong>Phone:</strong> +1 (555) 123-4567
+            <strong>Phone:</strong> +234 816-754-8888
           </p>
           <p className="mb-2">
             <strong>Address:</strong> 123 Blog Street, City, Country
@@ -176,13 +176,22 @@ const ContactPage = () => {
           <div className="mt-4">
             <h3 className="text-lg font-semibold mb-2">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-blue-500 hover:text-blue-700">
+              <a
+                href="#T&TFacebook.com"
+                className="text-blue-500 hover:text-blue-700"
+              >
                 Facebook
               </a>
-              <a href="#" className="text-blue-400 hover:text-blue-600">
+              <a
+                href="#T&TTwitter.com"
+                className="text-blue-400 hover:text-blue-600"
+              >
                 Twitter
               </a>
-              <a href="#" className="text-pink-500 hover:text-pink-700">
+              <a
+                href="#T&TInstagram.com"
+                className="text-pink-500 hover:text-pink-700"
+              >
                 Instagram
               </a>
             </div>
