@@ -50,7 +50,7 @@ const Hero = () => {
 
       <form
         onSubmit={handleSearchSubmit}
-        className="mt-8 flex justify-center items-center"
+        className="mt-8 flex justify-center items-center "
       >
         <div className="relative w-full max-w-md">
           <input

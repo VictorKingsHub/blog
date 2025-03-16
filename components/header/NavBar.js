@@ -14,7 +14,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-white sticky top-0 w-full z-999 flex flex-row items-center justify-around py-3 md:shadow-md md:shadow-lightgray md:bg-white/80">
+    <nav className="bg-white sticky top-0 w-full  flex flex-row items-center justify-around py-3 md:shadow-md md:shadow-lightgray md:bg-white/80 z-[10000]">
       <div className="cursor-pointer">
         <Link href="/">
           <b>T&T Blog</b>
