@@ -9,13 +9,14 @@ const BlogList = () => {
 
   return (
     <div className="min-w-[95vw] border-t border-solid border-black flex flex-col justify-center items-center bg-gray-100 ">
-      <div className="flex justify-center gap-6 my-10 xs:gap-2">
+      <div className="flex justify-center gap-2 my-6 xs:gap-1 xs:my-4 flex-wrap">
+        {" "}
         <button
           onClick={() => setMenu("All")}
           className={
             menu === "All"
-              ? `bg-black text-white py-1 px-4 xs:px-2 rounded-sm font-semibold xs:text-xs`
-              : "font-semibold xs:text-xs"
+              ? `bg-black text-white py-1 px-2 rounded-sm font-semibold text-[0.7rem] xs:px-1 xs:py-0.5 xs:m-0.5`
+              : "font-semibold text-[0.7rem] xs:px-1 xs:py-0.5 xs:m-0.5"
           }
         >
           All
@@ -24,8 +25,8 @@ const BlogList = () => {
           onClick={() => setMenu("Technology")}
           className={
             menu === "Technology"
-              ? `bg-black text-white py-1 px-4 xs:px-2 rounded-sm font-semibold xs:text-xs`
-              : "font-semibold xs:text-xs"
+              ? `bg-black text-white py-1 px-2 rounded-sm font-semibold text-[0.7rem] xs:px-1 xs:py-0.5 xs:m-0.5`
+              : "font-semibold text-[0.7rem] xs:px-1 xs:py-0.5 xs:m-0.5"
           }
         >
           Technology
@@ -34,8 +35,8 @@ const BlogList = () => {
           onClick={() => setMenu("Education")}
           className={
             menu === "Education"
-              ? `bg-black text-white py-1 px-4 xs:px-2 rounded-sm font-semibold xs:text-xs`
-              : "font-semibold xs:text-xs"
+              ? `bg-black text-white py-1 px-2 rounded-sm font-semibold text-[0.7rem] xs:px-1 xs:py-0.5 xs:m-0.5`
+              : "font-semibold text-[0.7rem] xs:px-1 xs:py-0.5 xs:m-0.5"
           }
         >
           Education
@@ -44,8 +45,8 @@ const BlogList = () => {
           onClick={() => setMenu("Entertainment")}
           className={
             menu === "Entertainment"
-              ? `bg-black text-white py-1 px-4 xs:px-2 rounded-sm font-semibold xs:text-xs`
-              : "font-semibold xs:text-xs"
+              ? `bg-black text-white py-1 px-2 rounded-sm font-semibold text-[0.7rem] xs:px-1 xs:py-0.5 xs:m-0.5`
+              : "font-semibold text-[0.7rem] xs:px-1 xs:py-0.5 xs:m-0.5"
           }
         >
           Entertainment
