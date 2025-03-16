@@ -1,4 +1,11 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Blogging Website
+**(The best blogging website)**
+
+## Features
+1. Filter Field
+2. Search Bar
+3. Form Submit notification on the admin email
+4. ...
 
 ## Getting Started
 
@@ -20,15 +27,9 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More 
-**<b>sd</b>**
-#hello
-##hello
-###hello
-####hello
-#####hello
-######hello
-#######hello
+## Dependencies that needs to be installed
+****
+**<b>Next.js</b>**  npx create-next-app@latest
 
 To learn more about Next.js, take a look at the following resources:
 
